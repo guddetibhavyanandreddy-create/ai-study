@@ -8,6 +8,6 @@ def hello_world():
         # Process the question (e.g., send it to an AI model)
         # For now, we'll just return the question as a simple response
         response = "ai says:" + user_question
-    return render_template('indx.html', answer=response)
+    return render_template('index.html', answer=response)
 if __name__ == '__main__':
     app.run(debug=True)
